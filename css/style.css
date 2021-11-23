@@ -1,0 +1,349 @@
+@font-face {
+    font-family: "Estonia", cursive;
+    src: url("/fonts/Estonia-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Lifehack Basic";
+    src: url("/fonts/ofont.ru_Lifehack.ttf");
+}
+
+ 
+body {
+    background: linear-gradient(45deg, #f389ee, #49819b);
+
+    margin: auto;
+    box-sizing: border-box;
+}
+* {
+    box-sizing: border-box;
+}
+
+.nav {
+    background-image: url("../img/e.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100vh;
+    display: flow-root;
+}
+
+.nav-bar {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    background-color: #7952b3;
+    height: 50px;
+    box-shadow: 0.1em 0.1em 0.9em white;
+    border-radius: 0 0 40px 40px;
+    z-index: 1000;
+}
+
+.logo-text {
+    box-sizing: border-box;
+    flex: 0.8;
+    margin: 0 20px;
+}
+
+.logo-text h3 {
+    color: purple;
+    font-size: 1.7em;
+    font-weight: 1.5em;
+    margin: auto;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+
+    text-transform: uppercase;
+    font-family: verdana;
+    text-align: center;
+    text-shadow: 1px 1px 1px #919191, 1px 2px 1px #919191, 1px 1px 1px #919191, 1px 4px 1px #919191, 1px 7px 1px white,
+        1px 18px 6px rgba(16, 16, 16, 0.4), 1px 22px 10px rgba(16, 16, 16, 0.2), 1px 25px 35px rgba(16, 16, 16, 0.2),
+        1px 30px 60px rgba(16, 16, 16, 0.4);
+}
+
+.container {
+    display: flex;
+    padding-right: 150px;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: auto;
+    width: 100%;
+    z-index: 1000;
+    flex: 2;
+}
+.container > li > a {
+    padding: 7px;
+    margin: 5px;
+    width: 100%;
+    height: auto;
+    border-radius: 18px 1px;
+    border: 3px black solid;
+    display: block;
+    background-color: #69c9d0;
+    text-align: center;
+    color: black;
+
+    text-decoration: none;
+    box-shadow: 0.2em 0.2em hotpink;
+}
+
+.logo {
+    width: 70%;
+    box-sizing: border-box;
+    display: flex;
+    margin-left: 20px;
+    /* border: 2px solid white; */
+    position: relative;
+    margin-top: 80px;
+    height: 81vh;
+}
+
+.photo-text {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    /* border: 2px solid; */
+    flex: 1;
+}
+.photo-text .photo-log {
+    display: flow-root;
+}
+
+.photo-log img {
+    height: 70%;
+    width: 100%;
+}
+
+.text-log {
+    flex: 1;
+    display: flow-root;
+    text-align: center;
+    padding: 3em 0.5em;
+}
+
+.text-log h1 {
+    font-family: "Lifehack Basic";
+    font-size: 2em;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    height: 50px;
+    background: linear-gradient(45deg, #f389ee, #49819b);
+    background-size: auto;
+    box-shadow: 0.1em 0.2em 1em white;
+    border-radius: 20px 0 0px 00px;
+    /* color: brown; */
+    /* font-family: Arial, Helvetica, sans-serif;  */
+}
+
+.fish {
+    flex: 0.9;
+    margin-left: 20px;
+    margin-right: 0;
+    margin-top: 90px;
+    height: 80%;
+    width: 250px;
+    box-sizing: border-box;
+}
+
+.sect1 {
+    background-image: url(/img/f2.jpg) ;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 500px;
+    margin: 2% 5% 1% 5%;
+    box-shadow: 0.9em 0.9em 0.9em rgba(83, 86, 112, 1);
+    display: flex;
+ 
+padding: 5px;
+
+}
+
+
+.testik {  left: 0;
+    width: 40%;
+    height: 100%;
+}
+.testik2{
+
+    text-align: center;
+
+    right: 10%;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+display: flex;
+flex-direction: column;
+
+}
+
+
+.testik2 h1{
+    font-size: 2em;
+    font-weight: 1em;
+    color: #560319;
+    text-shadow: white 1px 1px;
+    margin-bottom: 10px;
+}
+.testik2 p{
+    padding: 5px ;
+    text-align: justify;
+    text-indent: 30px;
+    
+    margin-top: 2px;
+    background-color: rgba(208, 0, 112, 0.5);
+
+    font-size: 2em;
+    color: black;
+    border-radius: 1em;
+    box-shadow: 0.1em 0.3em 0.3em  blanchedalmond;
+margin-bottom:0;
+}
+
+
+
+
+.button-1{
+margin-top: 30px;
+    /* text-align: initial; */
+    display: inline-block;
+    text-align: end;
+
+}
+
+.button-1 a{
+    text-decoration: none;
+    color: black;
+    padding: .2em;
+    font-size: 2em;
+    border-radius: 10px;
+    background: linear-gradient(30deg, rgba(131, 58, 180, 1) 0%, white 40%, rgba(252, 176, 69, 1) 100%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sect2 {
+    background-image: url(/img/f2.jpg) ;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: block;
+    /* background-color: #b6b0b0; */
+    box-sizing: border-box;
+    height: 100vh;
+    margin: 2% 5%;
+    box-shadow: 0.1em 0.1em 0.9em rgba(27, 30, 52, 0.3);
+}
+
+.container2 {
+    padding-top: 10px;
+    margin: 0 2%;
+    display: flex;
+    justify-content: space-around;
+    height: 85%;
+}
+
+.card {
+    box-sizing: border-box;
+
+    max-width: 400px;
+    border-radius: 10px;
+    background: linear-gradient(142deg, rgba(27, 30, 52, 1) 0%, rgba(91, 95, 128, 1) 100%);
+    padding: 25px;
+    box-shadow: 0.1em 0.1em 0.9em white;
+    transform-style: preserve-3d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    /* margin-left: 20px; */
+}
+
+.card .photo {
+    box-shadow: 0.1em 0.1em 0.9em white;
+
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding: 5px;
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, white 60%, rgba(252, 176, 69, 1) 100%);
+    display: block;
+    margin: 0 auto;
+    transform: translateZ(10px);
+}
+
+.card .photo img {
+    border-radius: 50%;
+}
+
+.card .name {
+    color: #fff;
+    margin: 25px 0;
+    font-weight: 500;
+    text-align: center;
+    font-size: 32px;
+}
+
+.card .description {
+    color: #fff;
+    font-size: 18px;
+    margin: 0;
+    text-align: center;
+}
+
+.card .button {
+    margin-top: 25px;
+    text-align: center;
+    background: linear-gradient(30deg, rgba(131, 58, 180, 1) 0%, white 50%, rgba(252, 176, 69, 1) 100%);
+    padding: 0.5em 0.5em;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 10px;
+    transform: translateZ(30px);
+}
+.text-course {
+    display: flow-root;
+    /* background-color: blueviolet; */
+    text-align: center;
+}
+.text-course h1 {
+    font-family: "Lifehack Basic";
+    font-size: 3em;
+    margin: auto;
+    color: black;
+    animation-duration: 10s 5s 2.5s 1250ms;
+}
+
+.sect3 {
+    display: block;
+    /* background-color: #b6b0b0; */
+    box-sizing: border-box;
+    height: 100vh;
+    margin: 1% 5%;
+    box-shadow: 0.1em 0.1em 0.9em rgba(27, 30, 52, 0.3);
+}
+footer {
+    width: 100%;
+    height: 10em;
+    background-color: burlywood;
+    display: flow-root;
+}
+
+.container {
+    display: flex;
+}
